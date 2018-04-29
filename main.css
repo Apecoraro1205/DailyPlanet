@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'Indie Flower', cursive;
+    src: url(https://fonts.googleapis.com/css?family=Indie+Flower)
+}
+
+html {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.05em;
+}
+
+.pagewrapper {
+    background-color: white;
+    width: 800px;
+    margin: 1em auto;
+    padding: 0.5em;
+    box-shadow: 0.5em 0.5em 1.2em grey;
+    border-radius: 1em;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+section {
+    text-align: left;
+}
+
+aside {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    width: 800px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 1.25em;
+    border-style: solid;
+    background-color: white;
+    padding: 0.5em 0.2em;
+    margin: 0.5em auto;
+    word-spacing: 3em;
+    overflow: hidden;
+}
+
+a {
+    color: black;
+}
+
+nav {
+    float: right;
+    width: 2em;
+    height: 3em;
+    padding: auto;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+ul {
+    text-indent: 1em;
+}
+
+p {
+    padding: 0.5em;
+    text-align: left;
+    clear: both;
+}
+
+time {
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+
+/*formatting for header*/
+
+header img:hover {
+    -webkit-filter: blur(1px);
+}
+
+header img {
+    float: left;
+    background-color: cornflowerblue;
+    border-radius: 2em;
+    border-style: solid;
+    border: 4em;
+    box-shadow: 0.5em 0.5em 1em grey;
+}
+
+header h2 {
+    clear: right;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    font-size: 2em;
+    font-weight: 900;
+    word-spacing: 0.20em;
+    color: white;
+    text-shadow: 0.05em 0.05em black;
+}
+
+h1 {
+    clear: right;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    font-size: 5em;
+    font-weight: 900;
+    word-spacing: 0.20em;
+    color: white;
+    text-shadow: 0.05em 0.05em black;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    padding: .25em 0em;
+    color: black;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    padding: 1em 0em;
+}
+
+h4 {
+    font-style: italic;
+}
+
+
+/*formatting for footer*/
+
+footer img {
+    width: 2em;
+    border-radius: 1em;
+}
+
+#ig {
+    position: absolute;
+    right: 38em;
+}
+
+#youtube {
+    position: absolute;
+    right: 35em;
+}
+
+#twitter {
+    position: absolute;
+    right: 32em;
+}
+
+#fb {
+    position: absolute;
+    right: 29em;
+}
+
+#copyright {
+    font-style: italic;
+    font-size: 0.5em;
+}
+
+
+/*formatting for my images*/
+
+nav img {
+    position: relative;
+    right: 5em;
+    top: 26em;
+    padding-top: 6em;
+    height: 14em;
+    width: 8.5em;
+}
+
+section img {
+    width: 20em;
+}
+
+#zamboni {
+    float: left;
+    top: 10em;
+    margin: 1em;
+    padding: 1em;
+    width: 15em;
+    height: 15em;
+}
+
+#fish {
+    float: right;
+    padding: 2em;
+}
+
+#scuba {
+    float: left;
+    padding: 1em;
+    margin: 1em;
+    width: 15em;
+    height: 9em;
+}
+
+#dosequis {
+    float: right;
+    margin: 1em 2em;
+    height: 15em;
+    width: 20em;
+    padding-left: 2em;
+}
+
+#samsung {
+    float: right;
+    margin: 4em;
+    height: 10em;
+    width: 18em;
+}
+
+#dave {
+    float: left;
+    height: 25em;
+    padding: 2em;
+    margin-right: -1em;
+}
+
+#musk {
+    float: right;
+    width: 15em;
+    height: 15em;
+    padding: 1em;
+    margin-left: -1em;
+}
+
+#whyphone {
+    float: left;
+    width: 6em;
+    padding: 1em;
+}
+
+#noah {
+    float: right;
+    margin-top: 10em;
+}
+
+#carson {
+    float: left;
+    height: 15em;
+    width: 12em;
+    padding: 1em;
+}
+
+#womenopen {
+    float: left;
+    width: 10em;
+    height: 10em;
+    padding: 0.5em;
+}
+
+#segway {
+    float: right;
+}
